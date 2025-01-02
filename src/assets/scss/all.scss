@@ -1,5 +1,10 @@
 @use 'reset';
 @use 'keyframes' as *;
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+body{
+    font-family: "Braah One", "Noto Sans TC", Arial, Helvetica, '微軟正黑體', sans-serif;
+}
 
 /*------header開始------*/
 #topbar {
@@ -12,6 +17,10 @@
     align-items: center;
 
     .logo {
+        a{
+            display: flex;
+            align-items: center;
+        }
         img{
             width: 100px;
         }
@@ -1032,6 +1041,12 @@ footer {
                 a{
                     font-size: 20px;
                     color: #fff;
+
+                    &:hover{
+                        border-bottom: 3px solid #FFF;
+                        margin-bottom: -3px;
+                        /* 讓文字不抖動 */
+                    }
                 }
             }
             

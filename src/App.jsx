@@ -8,7 +8,6 @@ import MemberHistory from "./pages/MemberHistory";
 //import "./App.css";
 import "./assets/css/all.min.css";
 import SignUp from "./pages/SignUp";
-//import Home from "./pages/Home";
 
 export default function App() {
   return (

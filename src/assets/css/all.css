@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Braah+One&family=Noto+Sans+TC:wght@100..900&display=swap");
 /*重製區開始*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,6 +65,10 @@ a {
     /* 結束狀態，水波消失 */
   }
 }
+body {
+  font-family: "Braah One", "Noto Sans TC", Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
 /*------header開始------*/
 #topbar {
   position: fixed;
@@ -72,6 +77,10 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+#topbar .logo a {
+  display: flex;
   align-items: center;
 }
 #topbar .logo img {
@@ -1016,6 +1025,11 @@ footer .map .menu li {
 footer .map .menu li a {
   font-size: 20px;
   color: #fff;
+}
+footer .map .menu li a:hover {
+  border-bottom: 3px solid #FFF;
+  margin-bottom: -3px;
+  /* 讓文字不抖動 */
 }
 footer small {
   width: 100%;
