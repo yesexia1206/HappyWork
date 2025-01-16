@@ -20,11 +20,11 @@ export default function MemberItem() {
                 <div className="member-item">
                     <div className="item">
                         <img src="./images/history-icon.svg" alt="" />
-                        <Link to='/memberHistory'>租賃紀錄</Link>
+                        <Link to='/memberHistory' className="his">租賃紀錄</Link>
                     </div>
                     <div className="item">
                         <img src="./images/person-icon.svg" alt="" />
-                        <Link to='/memberItem'>個人資料</Link>
+                        <Link to='/memberItem' className="pesn">個人資料</Link>
                     </div>
                 </div>
                 <div className="member-item-content">
