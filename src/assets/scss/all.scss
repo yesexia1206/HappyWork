@@ -1,9 +1,13 @@
 @use 'reset';
 @use 'keyframes' as *;
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Noto+Sans+TC:wght@100..900&display=swap');
+@font-face {
+    font-family: 'sundaytime';
+    src: url(../SundayTime.otf);
+}
 
 body {
-    font-family: "Braah One", "Noto Sans TC", Arial, Helvetica, '微軟正黑體', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
 }
 
 /*------header開始------*/
@@ -265,6 +269,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 background-image: url(../images/no-menber-bg.svg);
+                font-family: 'sundaytime',"Noto Sans TC", sans-serif;
             }
 
             .btn-div {
@@ -809,7 +814,8 @@ body {
             margin-bottom: 18px;
             font-size: 24px;
             color: #48a0f0;
-            border-left: 3px solid #48a0f0;
+            // border-left: 3px solid #48a0f0;
+            font-family: 'sundaytime',"Noto Sans TC", sans-serif;
         }
 
         h2 {
